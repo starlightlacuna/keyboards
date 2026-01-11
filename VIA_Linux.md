@@ -10,7 +10,7 @@ To fix this,
 
 1. Go to https://usevia.app/.
 2. Click `Authorize device` and select the keyboard in the pop-up.
-3. Go to [chrome://device-log/](chrome://device-log) and note which file is unable to be opened. The file path will be of the form `/dev/hidraw3`. The number may be different for your system.
+3. Go to `chrome://device-log/` and note which file is unable to be opened. The file path will be of the form `/dev/hidraw3`. The number may be different for your system.
 4. Open a terminal and give read and write permissions to Others for that file:
     ```
     sudo chmod o+rw /dev/hidraw3
