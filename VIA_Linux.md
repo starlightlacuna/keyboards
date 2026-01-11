@@ -20,3 +20,7 @@ To fix this,
     ```
     sudo chmod o-rw /dev/hidraw3
     ```
+
+
+Source:
+- https://github.com/the-via/releases/issues/257#issuecomment-1595811563
